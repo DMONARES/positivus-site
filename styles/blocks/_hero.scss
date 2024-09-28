@@ -114,6 +114,12 @@
     &-image
     {
       filter: grayscale(1);
+
+      &:hover
+      {
+        filter: grayscale(0);
+        transition: all .2s ease-in-out;
+      }
     }
   }
 
@@ -133,5 +139,4 @@
       order: -1;
     }
   }
-
 }
