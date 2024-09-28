@@ -2,6 +2,7 @@
 {
   @include flex-center(true);
 
+  justify-content: center;
   height: var(--button-hight);
   padding-inline: 35px;
   font-size: 20px;
